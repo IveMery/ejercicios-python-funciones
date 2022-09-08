@@ -1,11 +1,18 @@
 #tipos de metodos
 #Decoradores
-#metodos de instancia
+#metodos de instancia o normales son
+#loque contienen self
+#acceden y modifican los atributos del objeto
+#acceden a otros metodos
+#pueden modificar el estado de la clase
 
     
 
 #metodos de clase @classmethod
+# def mi_metodo(cls):
+    #print(algo)
 
+    
 
 #metodos estaticos @staticmethod
 #no aceptan parametros ni self ni cls
@@ -32,6 +39,7 @@ class Pajaro:
 
 piolin = Pajaro('amarillo','canario')
 piolin.pintar_negro()
+piolin.volar(10)
 
 #metodos de nstancias afecatn a self
 
